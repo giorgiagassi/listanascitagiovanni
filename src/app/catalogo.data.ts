@@ -58,7 +58,8 @@ export const CATALOG_ITEMS: readonly CatalogItem[] = [
     description: 'Seggiolino auto i-Size in colorazione cool carbon, sicuro, confortevole e avvolgente.',
     price: 199,
     image: 'assets/catalogo/seggiolino-auto.jpg',
-    category: 'Passeggio'
+    category: 'Passeggio',
+    available: false
   },
   {
     id: 7,
