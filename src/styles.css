@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --bg: #f7fbfd;
+  --surface: #ffffff;
+  --surface-soft: #eef6fb;
+  --primary: #79acd2;
+  --primary-strong: #3f88b9;
+  --text: #24313b;
+  --muted: #71818d;
+  --beige: #e4d5be;
+  --beige-strong: #bda786;
+  --shadow: 0 18px 45px rgba(42, 72, 91, 0.13);
+  --radius-xl: 30px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(121, 172, 210, 0.22), transparent 34rem),
+    radial-gradient(circle at right 16rem, rgba(228, 213, 190, 0.28), transparent 28rem),
+    var(--bg);
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+button,
+input,
+a {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
