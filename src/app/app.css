@@ -556,7 +556,6 @@ h1 {
   letter-spacing: 0.02em;
   box-shadow: 0 8px 18px rgba(180, 35, 24, 0.24);
 }
-
 .product-modal__unavailable {
   display: inline-flex;
   width: fit-content;
