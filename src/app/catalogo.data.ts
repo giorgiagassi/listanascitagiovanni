@@ -17,7 +17,8 @@ export const CATALOG_ITEMS: readonly CatalogItem[] = [
     price: 99,
     image: 'assets/catalogo/welcome-pod.jpg',
     category: 'Nanna',
-    featured: true
+    featured: true,
+    available: false
   },
   {
     id: 2,
@@ -33,7 +34,8 @@ export const CATALOG_ITEMS: readonly CatalogItem[] = [
     description: 'Vaschetta pieghevole formato XL con riduttore, ideale dalla nascita e facile da riporre.',
     price: 69,
     image: 'assets/catalogo/stokke-flexi-bath.jpg',
-    category: 'Bagnetto'
+    category: 'Bagnetto',
+    available: false
   },
   {
     id: 4,
@@ -41,7 +43,8 @@ export const CATALOG_ITEMS: readonly CatalogItem[] = [
     description: 'Supporto stabile e leggero per usare la vaschetta Stokke a un’altezza più comoda.',
     price: 69,
     image: 'assets/catalogo/supporto-stokke.jpg',
-    category: 'Bagnetto'
+    category: 'Bagnetto',
+    available: false
   },
   {
     id: 5,
