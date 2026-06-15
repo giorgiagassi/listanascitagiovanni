@@ -145,6 +145,7 @@ export const CATALOG_ITEMS: readonly CatalogItem[] = [
     price: 399,
     image: 'assets/catalogo/lettino-forever.jpg',
     category: 'Nanna',
-    featured: true
+    featured: true,
+    available: false
   }
 ];
