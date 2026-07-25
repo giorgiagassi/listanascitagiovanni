@@ -29,6 +29,7 @@ export const CATALOG_ITEMS: readonly CatalogItem[] = [
     price: 79.9,
     image: 'assets/catalogo/fasciatoio.jpg',
     category: 'Cura',
+    available: false,
   },
   {
     id: 3,
@@ -141,6 +142,7 @@ export const CATALOG_ITEMS: readonly CatalogItem[] = [
     price: 35,
     image: 'assets/catalogo/aspiratore-nasale.jpg',
     category: 'Cura',
+    available: false,
   },
   {
     id: 15,
@@ -230,9 +232,9 @@ export const CATALOG_ITEMS: readonly CatalogItem[] = [
     title: 'Chicco Scaldabiberon Casa Per Riscaldare Latte e Pappa',
     description:
       'Lo scaldabiberon Chicco è stato concepito per scaldare il latte in modo graduale, consentendo così di preservarne i nutrienti e in particolare la vitamina B, preziosa per la crescita. Riscalda il latte a 37°, la temperatura più idonea di somministrazione al bambino.',
-    price: 31.90,
+    price: 31.9,
     image: 'assets/catalogo/scaldabiberon.jpg',
     category: 'Pappa',
     featured: true,
-  }
+  },
 ];
