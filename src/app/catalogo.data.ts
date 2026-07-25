@@ -234,5 +234,5 @@ export const CATALOG_ITEMS: readonly CatalogItem[] = [
     image: 'assets/catalogo/scaldabiberon.jpg',
     category: 'Pappa',
     featured: true,
-  },
+  }
 ];
