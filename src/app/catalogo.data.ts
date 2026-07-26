@@ -164,6 +164,7 @@ export const CATALOG_ITEMS: readonly CatalogItem[] = [
     image: 'assets/catalogo/lettino-forever.jpg',
     category: 'Nanna',
     featured: true,
+    available: false
   },
   {
     id: 17,
