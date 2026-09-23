@@ -20,15 +20,7 @@ export const CATALOG_ITEMS: readonly CatalogItem[] = [
     image: 'assets/catalogo/set-pappa.jpg',
     category: 'Pappa',
   },
-  {
-    id: 10,
-    title: 'Borsa Mamma con Fasciatoio Pretty Ebony',
-    description:
-      'Borsa capiente e organizzata con fasciatoio, ideale per uscite, passeggiate e viaggi.',
-    price: 99,
-    image: 'assets/catalogo/borsa-mamma.jpg',
-    category: 'Accessori',
-  },
+
   {
     id: 11,
     title: 'Zanzariera Navicella Bianca',
